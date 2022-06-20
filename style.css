@@ -27,11 +27,16 @@ body{
     border-radius: 2%;
     width: 100%;
     max-width: 600px;
+    position: relative;
 }
 
 #logo{
     width: 5rem;
     height: auto;
+}
+
+#question{
+height: 4rem;    
 }
 
 h1{
@@ -46,6 +51,12 @@ h1{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#next-btn{
+    position: absolute;
+    left: 252px;
+    top: 395px;
 }
 
 #category-btn-container{
