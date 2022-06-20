@@ -157,7 +157,7 @@ function showResult() {
         percentageContainer.innerHTML = (correctAnswer / 10) * 100;
     }
     else if (randomQuestionIndexArray.length == questions.length-1) {
-        nextQuestion.innerHTML = "Submit";
+        nextQuestion.innerHTML = "Submit Answer";
         getQuestion();
     }
     else if (randomQuestionIndexArray.length == questions.length) {
