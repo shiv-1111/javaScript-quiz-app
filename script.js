@@ -192,6 +192,11 @@ function selectAnswer(event) {
         else {
             selected.classList.add('wrong');
             mainContainer.style.boxShadow = "0 0 10px 2px red";
+            for (let i = 0;i < answerBtn.length;i++){
+                if (answerBtn[i].innerHTML == questions[randomQuestionIndex].answer){
+                    answerBtn[i].classList.add('correct');
+                }
+            }
         }
         nextQuestion.classList.remove('hide');
     }
